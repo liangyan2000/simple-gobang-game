@@ -72,6 +72,11 @@ def black_win():
             if (black_xs[0] - black_ys[0]) == (black_xs[3] - black_ys[3]):
                 if (black_xs[0] - black_ys[0]) == (black_xs[4] - black_ys[4]):
                     return True
+    elif (black_xs[0] + black_ys[0]) == (black_xs[1] + black_ys[1]):
+        if (black_xs[0] + black_ys[0]) == (black_xs[2] + black_ys[2]):
+            if (black_xs[0] + black_ys[0]) == (black_xs[3] + black_ys[3]):
+                if (black_xs[0] + black_ys[0]) == (black_xs[4] + black_ys[4]):
+                    return True
     else:
         return False
 
